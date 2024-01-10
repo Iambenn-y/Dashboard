@@ -236,3 +236,65 @@ body{
 
     background-color: green;
 }
+
+/* Table section */
+.tabular-wrapper{
+    background-color: white;
+    margin-top: 1rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.table-container{
+    width: 100%;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: black;
+    color: white;
+}
+
+th{
+    padding: 15px;
+    text-align: left;
+}
+
+tbody{
+    background-color: #f2f2f2;
+}
+
+td{
+    padding: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+tr:nth-child(even){
+    background-color: white;
+}
+
+tr:nth-child(even) button{
+    background: none;
+}
+
+tfoot{
+    background: black;
+    font-weight: bold;
+    color:white;
+}
+
+tfoot td{
+    padding: 15px;
+    color: white;
+}
+
+.table-container button{
+    color: green;
+    background: none;
+    cursor: pointer;
+}
