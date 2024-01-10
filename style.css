@@ -48,7 +48,7 @@ body{
 }
 
 .menu li{
-    font-size: 17px;
+    font-size: 14px;
     padding: 1rem;
     border-radius: 8px;
     margin: 0 10px;
@@ -158,8 +158,7 @@ body{
 }
 
 .payment-card{
-    background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
     border-radius: 10px;
     padding: 1.2rem;
     width: 290px;
@@ -172,4 +171,68 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 
 .payment-card:hover{
     transform: translateY(-5px);
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.amount{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.amount-value{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.icon{
+    color: white;
+    padding: 1rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+    background-color: grey;
+}
+
+.card-detail{
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #777777;
+    font-size: 18px;
+}
+
+/* Colors */
+.gradient1{
+    background-image: linear-gradient( 92.7deg,  rgba(245,212,212,1) 8.5%, rgba(252,251,224,1) 90.2% );
+}
+.gradient2{
+    background-image: linear-gradient( 109.5deg,  rgba(229,233,177,1) 11.2%, rgba(223,205,187,1) 100.2% );
+}
+.gradient3{
+    background-image: linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%, rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );
+}
+.purple{
+    background-color: purple
+    ;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+
+    background-color: green;
 }
